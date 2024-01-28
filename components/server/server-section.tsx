@@ -3,8 +3,8 @@
 import { Plus, Settings } from "lucide-react";
 import { ChannelType, MemberRole } from "@prisma/client";
 import { ServerWithMembersWithProfiles } from "@/types";
-import ActionTooltip from "@/components/action-tooltip";
 import { useModal } from "@/hooks/use-modal-store";
+import ActionTooltip from "@/components/action-tooltip";
 
 interface ServerSectionProps {
   label: string;
