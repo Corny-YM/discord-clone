@@ -70,7 +70,7 @@ const ChatMessages = ({
     loadMore: fetchNextPage,
   });
 
-  if (status === "pending")
+  if (status === "loading")
     return (
       <div className="flex flex-col flex-1 justify-center items-center">
         <Loader2 className="w-7 h-7 text-zinc-500 animate-spin my-4" />
